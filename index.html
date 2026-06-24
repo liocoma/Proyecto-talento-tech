@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,800;1,100;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="./index.html">
+        <img src="./img/logo.png" alt="Logo" class="logo-img" />
+        </a>
+      </div>
+
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/about.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./pages/carrito.html">🛒<span id="contador-carrito">0</span></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+    <!-- HERO -->
+      <section class="hero">
+        <div class="hero-overlay">
+        <h1>Viví la experiencia náutica</h1>
+        <p>Equipamiento y aventura para disfrutar el agua al máximo.</p>
+        <a href="#productos" class="btn hero-btn">
+            Ver productos
+        </a>
+        </div>
+      </section>
+
+    <!-- PRODUCTOS -->
+      <section id="productos">
+        <h2 class="titulo-productos">Nuestros productos</h2>
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Sitio realizado por Lio para Talento Tech</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="./img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="./img/social.png" alt="logo de whatsapp" /></li>
+        </ul>
+      </nav>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

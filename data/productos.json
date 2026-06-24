@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Optimist",
+    "precio": 2500000,
+    "img": "img/optimist.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Kayak",
+    "precio": 890000,
+    "img": "img/kayak.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "SUP Inflable",
+    "precio": 650000,
+    "img": "img/sup.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Bote de Remo",
+    "precio": 1200000,
+    "img": "img/boteremo.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Canoa Canadiense",
+    "precio": 950000,
+    "img": "img/canoa.jpg"
+  }
+]
